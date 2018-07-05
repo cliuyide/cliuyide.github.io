@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[算法1]]></title>
-    <url>%2F2018%2F06%2F12%2F%E7%AE%97%E6%B3%952%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[算法1]]></title>
-    <url>%2F2018%2F06%2F12%2F%E7%AE%97%E6%B3%951%2F</url>
-    <content type="text"></content>
+    <title><![CDATA[买卖股票的最佳时机]]></title>
+    <url>%2F2018%2F07%2F03%2F121.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%2F</url>
+    <content type="text"><![CDATA[121. 买卖股票的最佳时机https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/原题 121. 买卖股票的最佳时机给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。如果你最多只允许完成一笔交易（即买入和卖出一支股票），设计一个算法来计算你所能获取的最大利润。 注意你不能在买入股票前卖出股票。 示例 1:输入: [7,1,5,3,6,4]输出: 5解释: 在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。 注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格。示例 2:输入: [7,6,4,3,1]输出: 0解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。 解答 这道题,很简单,最近被难题虐坏了主要就是要找出数组a,b两个位置最大的差,b&gt;a 1234567891011121314151617public int maxProfit(int[] prices) &#123; int result = 0; if (prices.length == 0) &#123; result = 0; &#125; int min = 0; for (int i = 1; i &lt; prices.length; i++) &#123; if (prices[i] &lt; prices[min]) &#123; min = i; &#125; else &#123; if (prices[i] - prices[min] &gt; result) &#123; result = prices[i] - prices[min]; &#125; &#125; &#125; return result; &#125;]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>Array</tag>
+        <tag>easy</tag>
+      </tags>
   </entry>
 </search>
