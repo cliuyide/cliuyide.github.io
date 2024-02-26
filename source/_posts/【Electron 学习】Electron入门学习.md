@@ -1,7 +1,7 @@
 ﻿---
   title: 【Electron 学习】Electron入门学习
   date: 2024-02-26 
-  categories: linux 
+  categories: 前端 
   tags: [electron,vue,前端] 
 ---
 ### 1.使用vue-cli-plugin-electron-builder创建electron项目
