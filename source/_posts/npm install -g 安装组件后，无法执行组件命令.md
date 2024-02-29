@@ -1,6 +1,6 @@
 ﻿---
   title: npm install -g 安装组件后，无法执行组件命令
-  date: 2024-02-26 
+  date: 2024-02-29 
   categories: 前端 
   tags: [npm,前端,问题] 
 ---
